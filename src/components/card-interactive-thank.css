@@ -1,0 +1,65 @@
+.card-interactive-thanks {
+    width: 325px;
+    height: 358px;
+    border-radius: 10px;
+    padding: 0 24px;
+    background-color: var(--DarkBlue);
+
+    @media (width >=1440px) {
+        width: 412px;
+        height: 416px;
+        padding: 0 30px;
+    }
+}
+
+.card-interactive-thanks__image {
+    margin: 32px auto 0;
+    display: block;
+
+    @media (width >=1440px) {
+        width: 165px;
+        height: 115px;
+        margin: 48px auto 0;
+    }
+}
+
+.card-interactive-thanks__selected {
+    width: 169px;
+    height: 25px;
+    margin: 22px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    color: var(--Orange);
+    background-color: var(--Other);
+
+    @media (width >=1440px) {
+        width: 194px;
+        height: 34px;
+        margin: 30px auto 0;
+    }
+}
+
+.card-interactive-thanks__title {
+    margin-top: 28px;
+    text-align: center;
+    color: var(--White);
+
+    @media (width >=1440px) {
+        margin-top: 40px;
+        font-size: 1.7rem;
+    }
+}
+
+.card-interactive-thanks__description {
+    margin-top: 18px;
+    text-align: center;
+    font-size: .875rem;
+    color: var(--MediumGrey);
+
+    @media (width >=1440px) {
+        font-size: 15.5px;
+        line-height: 22px;
+    }
+}
